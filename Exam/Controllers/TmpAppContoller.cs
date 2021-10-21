@@ -40,5 +40,11 @@ namespace Exam.Controllers
         {
             return Ok(repository.GetByName(name));
         }
+
+        [HttpPost]
+        public ActionResult<ShowTmp> Insert(Insert data)
+        {
+            return Ok(repository.Insert(data));
+        }
     }
 }

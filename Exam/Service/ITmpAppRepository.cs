@@ -14,5 +14,6 @@ namespace Exam.Service
         List<ShowTmp> GetById(int id);
 
         IEnumerable<ShowTmp> GetByName(string name);
+        Response Insert(Insert data);
     }
 }

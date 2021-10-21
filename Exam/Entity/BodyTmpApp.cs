@@ -19,4 +19,9 @@ namespace Exam.Entity
         public DateTime CreatedDate { get; set; }
         public DateTime UpdatedDate { get; set; }
     }
+
+    public class Insert
+    {
+        public string Name { get; set; }
+    }
 }
